@@ -663,7 +663,7 @@ class emf_settings_t(Structure):
     ]
 
 
-class engine_advansed_setup_t(Structure):
+class engine_advanced_setup_t(Structure):
     _fields_ = [
         ("stepcloseloop_Kw", c_uint),
         ("stepcloseloop_Kp_low", c_uint),
